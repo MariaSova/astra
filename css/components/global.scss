@@ -1,0 +1,86 @@
+.global {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-bottom: rem(150px);
+}
+
+.global__title {
+    font-size: rem(48px);
+    line-height: rem(55px);
+    font-weight: 700;
+    color: $gradient;
+    text-transform: uppercase;
+    margin-bottom: rem(20px);
+}
+
+.global__container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.global__col {
+    display: flex;
+    flex-direction: column;
+    
+    font-size: rem(36px);
+    line-height: rem(41px);
+}
+
+.col-two {
+    width: 70%;
+    margin-top: rem(20px);
+}
+
+.global__tit {
+    font-size: rem(36px);
+    margin-bottom: 0;
+}
+
+.global__item {
+    display: flex;
+}
+
+.item__num {
+    align-items: center;
+}
+
+.global__numbers {
+    font-size: rem(48px);
+    font-weight: 700;
+    line-height: rem(55px);
+    color: $gradient;
+    margin-left: rem(14px);
+    margin-right: rem(14px);
+}
+
+.global__list {
+    margin-bottom: rem(30px);
+}
+
+
+
+.global__country {
+    display: flex;
+    align-items: center;
+    
+}
+.global__dash {
+    margin-right: rem(14px);
+    width: rem(5px);
+    height: rem(20px);
+    align-items: center;
+}
+
+.global__country-name {
+    bottom: 0;
+}
+
+
+.gradient {
+    background: linear-gradient(to right, #8E313E, #306DB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
