@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    height: rem(150px);
+    width: 100%;
+    background: #0079c0;
+    font-size: rem(14px);
+    text-transform: uppercase;
+
+    margin-bottom: rem(95px);
+}
+
+.menu {
+    margin-right: rem(80px);
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    margin-right: rem(30px);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.partners {
+    background: #fff;
+    width: rem(122px);
+    height: rem(150px);
+    color: #0079C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

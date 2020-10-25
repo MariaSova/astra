@@ -1,0 +1,10 @@
+.company {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.company__column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.business {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.business__text {
+  font-size: 64px;
+  line-height: 74, 6px;
+  font-weight: 700;
+}
