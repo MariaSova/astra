@@ -1,0 +1,24 @@
+$containerWidth: 1280px;
+$baseFontSize: 18px;
+
+//colors 
+
+$black: #1b252c;
+$gradient: #8E313E;
+
+@import "./components/media.scss";
+
+//normalize 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+//setups
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import "./layout.scss";
+
+@import "../css/components/hero.scss";
+@import "../css/components/hero.scss";
+@import "../css/components/header.scss";
+@import "../css/components/company.scss";
+@import "../css/components/business.scss";
+@import "../css/components/global.scss";
+@import "../css/components/footer.scss";
