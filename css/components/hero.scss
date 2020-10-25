@@ -19,6 +19,17 @@
     align-items: center;
     margin-bottom: rem(150px);
 
+    &::before {
+        content: url("../../images/010.png");
+        position: absolute;
+        left: 0;
+    }
+    &::after {
+        content: url("../../images/1001.png");
+        position: absolute;
+        right: 0;
+    }
+
 }
 
 
