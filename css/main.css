@@ -79,14 +79,21 @@ img {
 }
 
 .hero {
+  background: url("../../images/010.png") center left no-repeat, url("../../images/1001.png") center right no-repeat;
   min-height: 36.1111111111rem;
-  margin-bottom: 2.2222222222rem;
+  margin-top: 5.2777777778rem;
+  margin-bottom: 3.3888888889rem;
+  display: flex;
+  align-items: center;
 }
 
 .hero__container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.hero__container2 {
+  margin-bottom: 2.2222222222rem;
 }
 
 .hero__title-section {
@@ -94,16 +101,6 @@ img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 8.3333333333rem;
-}
-.hero__title-section::before {
-  content: url("../../images/010.png");
-  position: absolute;
-  left: 0;
-}
-.hero__title-section::after {
-  content: url("../../images/1001.png");
-  position: absolute;
-  right: 0;
 }
 
 .hero__title {
@@ -148,14 +145,21 @@ img {
 }
 
 .hero {
+  background: url("../../images/010.png") center left no-repeat, url("../../images/1001.png") center right no-repeat;
   min-height: 36.1111111111rem;
-  margin-bottom: 2.2222222222rem;
+  margin-top: 5.2777777778rem;
+  margin-bottom: 3.3888888889rem;
+  display: flex;
+  align-items: center;
 }
 
 .hero__container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.hero__container2 {
+  margin-bottom: 2.2222222222rem;
 }
 
 .hero__title-section {
@@ -163,16 +167,6 @@ img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 8.3333333333rem;
-}
-.hero__title-section::before {
-  content: url("../../images/010.png");
-  position: absolute;
-  left: 0;
-}
-.hero__title-section::after {
-  content: url("../../images/1001.png");
-  position: absolute;
-  right: 0;
 }
 
 .hero__title {
@@ -216,44 +210,11 @@ img {
   margin-bottom: 1.1111111111rem;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #fff;
-  height: 8.3333333333rem;
-  width: 100%;
-  background: #0079c0;
-  font-size: 0.7777777778rem;
-  text-transform: uppercase;
-  margin-bottom: 5.2777777778rem;
-}
-
-.menu {
-  margin-right: 4.4444444444rem;
-}
-
-.menu__list {
-  display: flex;
-  align-items: center;
-}
-
-.menu__item {
-  margin-right: 1.6666666667rem;
-}
-.menu__item:last-child {
-  margin-right: 0;
-}
-
-.menu__link {
-  text-decoration: none;
-}
-
 .partners {
   background: #fff;
-  width: 6.7777777778rem;
-  height: 8.3333333333rem;
   color: #0079C0;
+  width: 6.7777777778rem;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,7 +252,7 @@ img {
   overflow: hidden;
   position: relative;
   background: #EBEBEB;
-  padding: 0.5555555556rem 2.7777777778rem 0.5555555556rem 1.1111111111rem;
+  padding: 0.5555555556rem 2.2222222222rem 0.5555555556rem 1.1111111111rem;
 }
 
 .company__description {
@@ -340,11 +301,7 @@ img {
   font-weight: 700;
   font-weight: 9.1666666667rem;
   color: #8E313E;
-  margin-right: 4.6666666667rem;
-}
-
-.company__number {
-  width: 100%;
+  margin-right: 2.7777777778rem;
 }
 
 .company__numb-mlrd {
@@ -356,6 +313,7 @@ img {
 .company__numb-text {
   font-size: 1rem;
   line-height: 1.1666666667rem;
+  width: 9.7222222222rem;
 }
 
 .business {
@@ -491,47 +449,20 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
-.footer {
+.row {
   display: flex;
-  height: 6.6666666667rem;
-  width: 100%;
-}
-.footer::after {
-  content: url("../../images/footer_img.png");
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.footer__cont {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.footer__content {
-  display: flex;
-  align-items: center;
-  position: relative;
-  color: #fff;
-  font-size: 1.3333333333rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
+.col-12 {
+  margin-left: 15rem;
 }
 
-.footer__content-text {
-  display: flex;
-}
-
-.logo__footer {
+.logo__footer-astra {
   margin-left: 13.8888888889rem;
-  margin-right: 13.8888888889rem;
 }
 
-.footer__text {
-  margin-right: 5.5555555556rem;
+.footer__item {
+  margin-right: 1.6666666667rem;
 }
