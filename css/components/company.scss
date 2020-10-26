@@ -33,7 +33,7 @@
     overflow: hidden;
     position: relative;
     background: #EBEBEB;
-    padding: rem(10px) rem(50px) rem(10px) rem(20px);
+    padding: rem(10px) rem(40px) rem(10px) rem(20px);
 }
 
 .company__description {
@@ -81,12 +81,10 @@
     font-weight: 700;
     font-weight: rem(165px);
     color: $gradient;
-    margin-right: rem(84px);
+    margin-right: rem(50px);
 }
 
-.company__number {
-    width: 100%;
-}
+
 
 .company__numb-mlrd {
     font-size: rem(48px);
@@ -97,5 +95,6 @@
 .company__numb-text {
     font-size: rem(18px);
     line-height: rem(21px);
+    width: rem(175px);
 }
 
