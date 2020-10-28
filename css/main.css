@@ -79,12 +79,15 @@ img {
 }
 
 .hero {
-  background: url("../../images/010.png") center left no-repeat, url("../../images/1001.png") center right no-repeat;
   min-height: 36.1111111111rem;
   margin-top: 5.2777777778rem;
-  margin-bottom: 3.3888888889rem;
+  margin-bottom: 8.3333333333rem;
   display: flex;
+  flex: 1;
+  justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero__container {
@@ -100,7 +103,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 8.3333333333rem;
+  min-width: 30.5555555556rem;
 }
 
 .hero__title {
@@ -111,11 +114,12 @@ img {
 }
 
 .hero__logo {
-  margin-bottom: 3.6111111111rem;
+  margin-bottom: 3.3333333333rem;
 }
 
 .hero__link {
   font-size: 1.3333333333rem;
+  line-height: 1.5333333333rem;
   text-decoration: none;
   color: #0079c0;
 }
@@ -130,27 +134,42 @@ img {
 }
 
 .hero__player-video {
-  width: 60%;
+  min-width: 60%;
   margin-right: 1.7777777778rem;
 }
 
 .hero__player-content {
-  width: 34%;
+  min-width: 34%;
   margin-top: 0.7222222222rem;
   line-height: 1.1666666667rem;
 }
 
 .hero__player-text {
   margin-bottom: 1.1111111111rem;
+}
+
+.picture {
+  overflow: hidden;
+  transform: translateX(-100px);
+  max-width: 31.8888888889rem;
+}
+
+.picture1 {
+  overflow: hidden;
+  transform: translateX(100px);
+  max-width: 34rem;
 }
 
 .hero {
-  background: url("../../images/010.png") center left no-repeat, url("../../images/1001.png") center right no-repeat;
   min-height: 36.1111111111rem;
   margin-top: 5.2777777778rem;
-  margin-bottom: 3.3888888889rem;
+  margin-bottom: 8.3333333333rem;
   display: flex;
+  flex: 1;
+  justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero__container {
@@ -166,7 +185,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 8.3333333333rem;
+  min-width: 30.5555555556rem;
 }
 
 .hero__title {
@@ -177,11 +196,12 @@ img {
 }
 
 .hero__logo {
-  margin-bottom: 3.6111111111rem;
+  margin-bottom: 3.3333333333rem;
 }
 
 .hero__link {
   font-size: 1.3333333333rem;
+  line-height: 1.5333333333rem;
   text-decoration: none;
   color: #0079c0;
 }
@@ -196,18 +216,30 @@ img {
 }
 
 .hero__player-video {
-  width: 60%;
+  min-width: 60%;
   margin-right: 1.7777777778rem;
 }
 
 .hero__player-content {
-  width: 34%;
+  min-width: 34%;
   margin-top: 0.7222222222rem;
   line-height: 1.1666666667rem;
 }
 
 .hero__player-text {
   margin-bottom: 1.1111111111rem;
+}
+
+.picture {
+  overflow: hidden;
+  transform: translateX(-100px);
+  max-width: 31.8888888889rem;
+}
+
+.picture1 {
+  overflow: hidden;
+  transform: translateX(100px);
+  max-width: 34rem;
 }
 
 .partners {
