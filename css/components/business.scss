@@ -4,6 +4,10 @@
     flex: 1;
     align-items: flex-start;
     margin-bottom: rem(116px);
+
+    @include phones {
+        min-width: rem(450px);
+    }
 }
 
 .business__content {
@@ -30,7 +34,16 @@
     bottom: 0;
     top: 0;
     padding: rem(90px) rem(30px);
-    width: 70%;
+    max-width: (650px);
+    margin-top: (-60px);
+
+    @include phones {
+        font-size: rem(44px);
+        max-width: (450px);
+        padding: rem(10px) rem(30px);
+        line-height: 1.42;
+        margin-top: 0;
+    }
 }
 
 .business__body {

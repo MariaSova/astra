@@ -12,6 +12,24 @@
     position: relative;
     overflow: hidden;
 
+    @include tablets {
+        min-height: rem(600px);
+        margin-top: rem(85px);
+        margin-bottom: rem(50px);
+        display: flex;
+        flex: 1;
+    }
+
+    @include phones {
+        min-height: rem(600px);
+        margin-top: rem(50px);
+        margin-bottom: rem(50px);
+        display: flex;
+        flex: 1;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
 }
 
 
@@ -21,11 +39,19 @@
     display: flex;
     flex-direction: column;
     
-    
+    @include phones {
+        min-height: rem(300px);
+        margin-top: rem(60px);
+        
+    }
 }
 
 .hero__container2 {
+    display: flex;
+    flex-direction: column;
     margin-bottom: rem(40px);
+
+
 }
 
 .hero__title-section {
@@ -34,6 +60,13 @@
     align-items: center;
     
     min-width: rem(550px);
+
+    @include phones {
+        display: flex;
+        flex: 1;
+        min-width: rem(0px);
+    }
+    
 
 }
 
@@ -57,24 +90,46 @@
 }
 
 
-
 .hero__player-section {
     display: flex;
+    flex: 1;
+    justify-content: center;
     align-items: flex-start;
     overflow: hidden;
     position: relative;
     background: #EBEBEB;
-    padding: rem(27px) rem(17px) rem(26px) rem(30px);
+    padding: rem(26px) rem(20px) rem(26px) rem(20px);
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
 .hero__player-video {
-    min-width: 60%;
-    margin-right: rem(32px);
+    display: flex;
+    flex: 1;
+    margin-right: rem(30px);
+    
+    @include phones {
+        display: flex;
+        min-height: rem(300px);
+    }
+
 }
 
+
 .hero__player-content {
-    min-width: 34%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: rem(300px);
     margin-top: rem(13px);
     line-height: rem(21px);
 }
@@ -88,7 +143,14 @@
     overflow: hidden;
     transform: translateX(-100px);
     max-width: rem(574px);
-   
+
+    @include tablets {
+        display: none;
+    }
+
+    @include phones {
+        display: none;
+    }
 
 }
 
@@ -97,4 +159,11 @@
     transform: translateX(100px);
     max-width: rem(612px);
     
+    @include tablets {
+        display: none;
+    }
+    
+    @include phones {
+        display: none;
+    }
 }

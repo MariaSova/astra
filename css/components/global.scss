@@ -4,6 +4,8 @@
     flex: 1;
     align-items: center;
     margin-bottom: rem(150px);
+
+    
 }
 
 .global__title {
@@ -13,12 +15,25 @@
     color: $gradient;
     text-transform: uppercase;
     margin-bottom: rem(20px);
+
+    @include tablets {
+        font-size: rem(38px);
+        line-height: 1.42;
+    }
 }
 
 .global__container {
     display: flex;
     justify-content: space-between;
     flex: 1;
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
 }
 
 .global__col {
@@ -30,7 +45,7 @@
 }
 
 .col-two {
-    width: 66%;
+    max-width: rem(868px);
     margin-top: rem(20px);
 }
 
