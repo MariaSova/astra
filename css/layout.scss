@@ -1,6 +1,14 @@
 html {
     font-size: $baseFontSize;
     background: #E5E5E5;
+
+    @include tablets {
+        font-size: $baseFontSize - 1px;
+    }
+    @include phones {
+        font-size: $baseFontSize - 2px;
+    }
+
 }
 
 html,

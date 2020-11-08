@@ -1,10 +1,17 @@
 $containerWidth: 1280px;
 $baseFontSize: 18px;
 
+$tablets: 770px;
+$phones: 490px;
+
 //colors 
 
 $black: #1b252c;
 $gradient: #8E313E;
+
+
+$z-fixed-menu: 100;
+
 
 @import "./components/media.scss";
 
@@ -15,9 +22,8 @@ $gradient: #8E313E;
 @import url("https://fonts.googleapis.com/css2?family=Helvetica:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 @import "./layout.scss";
 
+
 @import "../css/components/hero.scss";
-@import "../css/components/hero.scss";
-@import "../css/components/header.scss";
 @import "../css/components/company.scss";
 @import "../css/components/business.scss";
 @import "../css/components/global.scss";
