@@ -62,9 +62,6 @@
 </head>
 
 
-
-
-
 <body>
     <header>
         <div id="csi-header" class="csi-header csi-banner-header">
@@ -178,7 +175,13 @@
                 <div class="container hero__container2">
                     <div class="hero__player-section">
                         <div class="hero__player-video">
-                            <img src="./images/player.png" alt="" class="hero__player">
+                            <div class="player__wrapper">
+                                <div id="yt-player" class="player__elem"></div>
+                            </div>
+                            
+
+                            <!-- https://youtu.be/YgAyr2fgAfc -->
+                            
                         </div>
                         <div class="hero__player-content">
                             <div class="hero__player-text">
@@ -330,6 +333,14 @@
                     </div>
                 </div>
             </section>
+
+            <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity=""
+            crossorigin="anonymous"></script>
+
+            <script src="https://www.youtube.com/iframe_api"></script>
+            <script src="./player.js"></script>
 
 
     </div>
